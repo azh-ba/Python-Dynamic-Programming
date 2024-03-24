@@ -1,6 +1,9 @@
 def gridTraveler(row, col, memo = {}):
     """Return the number of unique ways to move from top left corner 
     to the bottom right corner in a row*col matrix.
+    row     int
+    col     int
+    memo    dict
     """
     key = str(row) + ',' + str(col)
     # base case: if memo has the saved result --> return saved results
