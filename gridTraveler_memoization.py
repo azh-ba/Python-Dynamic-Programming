@@ -21,8 +21,8 @@ def gridTraveler(row, col, memo = {}):
     return memo[key]
     
 if __name__ == '__main__':
-    print(gridTraveler(1, 1))       # 1
-    print(gridTraveler(2, 3))       # 3
-    print(gridTraveler(3, 2))       # 3
-    print(gridTraveler(3, 3))       # 6
-    print(gridTraveler(18, 18))     # 2333606220
+    print(gridTraveler(1, 1))       # --> 1
+    print(gridTraveler(2, 3))       # --> 3
+    print(gridTraveler(3, 2))       # --> 3
+    print(gridTraveler(3, 3))       # --> 6
+    print(gridTraveler(18, 18))     # --> 2333606220

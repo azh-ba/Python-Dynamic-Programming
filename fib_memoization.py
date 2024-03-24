@@ -26,5 +26,5 @@ def fib_memoization(n, memo = {}):
 
 if __name__ == '__main__':
     os.system('cls')
-    print(fib_recursion(10))
-    print(fib_memoization(50))
+    print(fib_recursion(10))        # --> 55
+    print(fib_memoization(50))      # --> 12586269025
