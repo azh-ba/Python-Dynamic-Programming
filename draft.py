@@ -25,3 +25,13 @@ if __name__ == '__main__':
     print(temp1)
     print(temp2)
     print(temp3)
+    print()
+
+    word = 'sk'
+    target = 'skateboard'
+    new_target = str(target.replace(word, ''))
+    print(word[0])
+    print(target[0])
+    print(word[0] == target[0])
+    print(new_target)
+    print(target)
