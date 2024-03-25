@@ -4,6 +4,7 @@ def howSum(targetSum, numbers, memo=None):
     """Return a list of numbers that its sum is equal to targetSum.
     Return None if no such list exists.
     result      list[]      save result
+    memo        dict{}      {key:value} = {targetSum:[...]}
     """
     # initialize memo
     if memo is None:
