@@ -6,7 +6,9 @@ The function should return an array containing the shortest combination of numbe
 
 If there is a tie for the shortest combination, you may return any one of the shortest.
 
+```py
 print(bestSum(7, [5, 3, 4, 7]))          # --> [7]
 print(bestSum(8, [2, 3, 5]))             # --> [3, 5]
 print(bestSum(8, [1, 4, 5]))             # --> [4, 4]
 print(bestSum(100, [1, 2, 5, 25]))       # --> [25, 25, 25, 25]
+```

@@ -6,10 +6,37 @@ The function should return a boolean indicating whether or not the `target` can 
 
 You may resue elements of `wordBank` as many times as possible.
 
-print(canConstruct('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd']))                       # --> True
-print(canConstruct('skateboard', ['bo', 'rd', 'ate', 't', 'ska', 'sk', 'boar']))        # --> False
-print(canConstruct('', ['cat', 'dog', 'mouse']))                                        # --> True
-print(canConstruct('enterapotentpot', ['a', 'p', 'ent', 'enter', 'ot', 'o', 't']))      # --> True
+```py
+print(canConstruct('abcdef', [
+    'ab', 
+    'abc', 
+    'cd', 
+    'def', 
+    'abcd'
+]))         # --> True
+print(canConstruct('skateboard', [
+    'bo', 
+    'rd', 
+    'ate', 
+    't', 
+    'ska', 
+    'sk', 
+    'boar'
+]))         # --> False
+print(canConstruct('', [
+    'cat', 
+    'dog', 
+    'mouse'
+]))         # --> True
+print(canConstruct('enterapotentpot', [
+    'a', 
+    'p', 
+    'ent', 
+    'enter', 
+    'ot', 
+    'o', 
+    't'
+]))         # --> True
 print(canConstruct('eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef', [
     'e',
     'ee',
@@ -17,4 +44,5 @@ print(canConstruct('eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef', [
     'eeee',
     'eeeee',
     'eeeeee'
-]))                                                                                     # --> False
+]))         # --> False
+```

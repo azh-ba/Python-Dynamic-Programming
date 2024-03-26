@@ -4,5 +4,7 @@ Write a function `fib(n)` that takes in a number as an argument. The function sh
 
 The 1st and 2nd number of the sequence is 1. To generate the next number of the sequence, we sum the previous two.
 
+```py
 print(fib_recursion(10))        # --> 55
 print(fib_memoization(50))      # --> 12586269025
+```
