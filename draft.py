@@ -35,3 +35,11 @@ if __name__ == '__main__':
     print(word[0] == target[0])
     print(new_target)
     print(target)
+    print()
+
+    arr = [['hello', 'my', 'wonderful', 'friends'], ['nice', 'to', 'meet', 'you']]
+    narr = []
+    new = list(map(lambda way: ['oh', *way], arr))
+    narr.extend(new)
+    print(narr)
+    
