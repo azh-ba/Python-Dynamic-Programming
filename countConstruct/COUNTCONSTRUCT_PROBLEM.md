@@ -33,5 +33,5 @@ print(countConstruct('eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef', [
     'eee', 
     'eeee', 
     'eeeee'
-]))     # --> 2
+]))     # --> 0
 ```
